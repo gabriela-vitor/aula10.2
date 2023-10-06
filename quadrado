@@ -1,0 +1,25 @@
+int main(){
+	
+	int i = 1, n1, res;
+	
+
+	
+	printf("digite um numero inteiro positivo\n");
+	scanf("%d", &n1);
+	
+	
+	while(i <= n1){
+		
+        res = i * i;
+		printf("o numero %d tem o quadrado de %d\n", i, res);
+		
+		
+		i++;
+		
+	}
+	
+	
+	
+	
+	
+}
